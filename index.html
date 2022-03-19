@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #repo {
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+            border-left: orangered 6px solid;
+            transition: 1.5s;
+        }
+        
+        #repo:hover {
+            background-color: orangered;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="search-container">
+        <input type="text" placeholder="Type GitHub User Name" id="search">
+        <button id="btn" onclick="printingOnConsole()">Search</button>
+    </section>
+    <div id="results">
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
